@@ -1,0 +1,41 @@
+
+.fundo{
+    background-image: url(https://img.freepik.com/vetores-gratis/fundo-colorido-circular-formas-planas_144290-9.jpg?size=626&ext=jpg);
+    
+}
+
+
+
+.menu2{
+    
+    font-family: cursive;
+
+}
+
+.menu2 li{
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.menu2 li a{
+    text-decoration: none;
+    font-size: 30px;
+    animation: taya 12s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes taya{
+    0%   {color:paleturquoise;}
+    25%  {color:violet;}
+    50%  {color:palevioletred;}
+    100% {color:purple;}
+  }
+
+
+  .logar{
+    color: #9381ff;
+    font-family: cursive;
+  }
+ 
