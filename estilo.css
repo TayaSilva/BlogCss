@@ -1,0 +1,104 @@
+.funds{
+background-image: url(https://b.rgbimg.com/users/x/xy/xymonau/600/mgZP6rW.jpg);
+}
+
+
+/*Parte do menu*/
+
+#menu{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    font-family: cursive;
+}
+
+
+#menu li{
+    list-style: none;
+    text-decoration: none;
+
+}
+
+#menu li a{
+    text-decoration: none;
+    color: plum;
+    font-size: 20px;
+
+}
+
+#menu li a:hover{
+color: aqua;
+}
+
+
+#logo {
+    display: flex;
+  justify-content: center;
+}
+
+.br-40{
+
+    border-radius: 40%;
+}
+
+@keyframes bounce{
+    0%, 20%, 60%, 100%{
+     -webkit-transform: translateY(0);
+     transform: translateY(0);
+    }
+    40%{
+     -webkit-transform: translateY(-20px);
+     transform: translateY(-20px);
+    }
+    80%{
+    -webkit-transform: translateY(-10px);
+     transform: translateY(-10px);
+    }
+}
+
+#menu li:hover{
+  animation: bounce 1s;
+}
+
+/*texto abaixo do logo*/
+
+.text{
+    font-family: sans-serif;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    color:darkslategray;
+    padding: center 20px;
+
+}
+
+#titulo{
+    font-family: serif;
+    font-size: 25px;
+    text-align: center;
+    
+    
+}
+
+#titulo{
+    animation: tay 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes tay {
+    0%   {color:pink;}
+    25%  {color:violet;}
+    50%  {color:palevioletred;}
+    100% {color:purple;}
+  }
+
+
+  /*mensagem acima da musica*/
+
+  #music{
+    font-family: cursive;
+    font-size: 20px;
+    text-align-last: left;
+    color:palevioletred;
+  }
+
